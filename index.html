@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kone App - Welcome</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+      background: #f7f9fc;
+      color: #141d38;
+      min-height: 100vh;
+    }
+    .center-container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 32px 24px;
+      box-shadow: 0 4px 10px rgba(20,29,56,0.12);
+      max-width: 400px;
+      width: 90vw;
+      margin: 20px;
+      text-align: center;
+    }
+    .logo {
+      font-size: 36px;
+      color: #1a365d;
+      margin-bottom: 16px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    .subtitle {
+      font-size: 18px;
+      color: #4a5568;
+      margin-bottom: 32px;
+      line-height: 26px;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .link-btn {
+      display: inline-block;
+      padding: 12px 0;
+      border-radius: 8px;
+      text-decoration: none;
+      background: #1a365d;
+      color: #fff;
+      font-weight: 600;
+      font-size: 16px;
+      transition: background 0.2s;
+    }
+    .link-btn:hover {
+      background: #243e68;
+    }
+    .footer {
+      font-size: 12px;
+      color: #718096;
+      margin-top: 16px;
+    }
+    @media (max-width: 600px) {
+      .card {
+        padding: 18px 8px;
+      }
+      .logo {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="center-container">
+    <div class="card">
+      <div class="logo">Kone App</div>
+      <div class="subtitle">Welcome to Kone!<br>
+        Use the links below to review our Privacy Policy and Terms &amp; Conditions.
+      </div>
+      <div class="links">
+        <a class="link-btn" href="privacy policy.html" target="_blank">Privacy Policy</a>
+        <a class="link-btn" href="terms.html" target="_blank">Terms &amp; Conditions</a>
+      </div>
+      <div class="footer">
+        &copy; 2025 Kone. All rights reserved.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
