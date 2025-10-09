@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Delete Account - Kone App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+      background: #f7f9fc;
+      color: #141d38;
+      min-height: 100vh;
+    }
+    .center-container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 32px 24px;
+      box-shadow: 0 4px 10px rgba(20,29,56,0.12);
+      max-width: 500px;
+      width: 90vw;
+      margin: 20px;
+      text-align: center;
+    }
+    .logo {
+      font-size: 36px;
+      color: #1a365d;
+      margin-bottom: 16px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    .warning {
+      background: #fed7d7;
+      border: 1px solid #feb2b2;
+      border-radius: 8px;
+      padding: 16px;
+      margin: 20px 0;
+      text-align: left;
+    }
+    .warning h3 {
+      color: #c53030;
+      margin-top: 0;
+    }
+    .instructions {
+      text-align: left;
+      margin: 20px 0;
+      line-height: 1.6;
+    }
+    .steps {
+      margin-left: 20px;
+    }
+    .footer {
+      font-size: 12px;
+      color: #718096;
+      margin-top: 16px;
+    }
+    @media (max-width: 600px) {
+      .card {
+        padding: 18px 8px;
+      }
+      .logo {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="center-container">
+    <div class="card">
+      <div class="logo">Kone App</div>
+      <h1>Delete Your Account</h1>
+      
+      <div class="warning">
+        <h3>Warning: This action is permanent</h3>
+        <p>Deleting your account will permanently remove all your data from our systems, including:</p>
+        <ul>
+          <li>Your profile information</li>
+          <li>Your account settings</li>
+          <li>All data provided during registration</li>
+          <li>Your activity history</li>
+        </ul>
+        <p>This action cannot be undone.</p>
+      </div>
+      
+      <div class="instructions">
+        <h3>How to delete your account:</h3>
+        <ol class="steps">
+          <li>Make sure you have an account and are logged in</li>
+          <li>Navigate to the home page</li>
+          <li>Look for the burger menu icon (☰) in the navigation bar</li>
+          <li>Click on the burger menu to open the sidebar</li>
+          <li>In the sidebar, find and select "Delete Account"</li>
+          <li>Follow the on-screen instructions to confirm deletion</li>
+        </ol>
+        <p>Once confirmed, your account and all associated data will be permanently deleted from our systems.</p>
+      </div>
+      
+      <div class="footer">
+        &copy; 2025 Kone. All rights reserved.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
