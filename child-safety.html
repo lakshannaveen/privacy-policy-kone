@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Kone App - Welcome</title>
+  <title>Kone App - Child Safety</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <style>
     body {
@@ -31,7 +31,7 @@
       text-align: center;
     }
     .logo {
-      font-size: 36px;
+      font-size: 32px;
       color: #1a365d;
       margin-bottom: 16px;
       font-weight: bold;
@@ -39,17 +39,25 @@
     }
     .subtitle {
       font-size: 18px;
-      color: #4a5568;
-      margin-bottom: 32px;
+      color: #e53e3e;
+      margin-bottom: 24px;
       line-height: 26px;
+      font-weight: 600;
     }
-    .links {
+    .info {
+      font-size: 16px;
+      color: #4a5568;
+      margin-bottom: 28px;
+      line-height: 25px;
+    }
+    .contact-links {
       display: flex;
       flex-direction: column;
       gap: 16px;
       margin-bottom: 20px;
+      align-items: center;
     }
-    .link-btn {
+    .contact-link {
       display: inline-block;
       padding: 12px 0;
       border-radius: 8px;
@@ -59,15 +67,11 @@
       font-weight: 600;
       font-size: 16px;
       transition: background 0.2s;
+      width: 220px;
+      text-align: center;
     }
-    .link-btn:hover {
+    .contact-link:hover {
       background: #243e68;
-    }
-    .delete-btn {
-      background: #e53e3e;
-    }
-    .delete-btn:hover {
-      background: #c53030;
     }
     .footer {
       font-size: 12px;
@@ -79,7 +83,10 @@
         padding: 18px 8px;
       }
       .logo {
-        font-size: 28px;
+        font-size: 24px;
+      }
+      .contact-link {
+        width: 96vw;
       }
     }
   </style>
@@ -87,15 +94,18 @@
 <body>
   <div class="center-container">
     <div class="card">
-      <div class="logo">Kone App</div>
-      <div class="subtitle">Welcome to Kone!<br>
-        Use the links below to review our Privacy Policy and Terms &amp; Conditions.
+      <div class="logo">Child Safety</div>
+      <div class="subtitle">Report Child Safety Concerns</div>
+      <div class="info">
+        If you have any concerns regarding child safety, you can report them through our email or WhatsApp.
       </div>
-      <div class="links">
-        <a class="link-btn" href="privacy policy.html" target="_blank">Privacy Policy</a>
-        <a class="link-btn" href="terms.html" target="_blank">Terms &amp; Conditions</a>
-        <a class="link-btn" href="child-safety.html" target="_blank">Child Safety</a>
-        <a class="link-btn delete-btn" href="delete.html" target="_blank">Delete Account</a>
+      <div class="contact-links">
+        <a class="contact-link" href="mailto:konecontactlk@gmail.com" target="_blank">
+          Email: konecontactlk@gmail.com
+        </a>
+        <a class="contact-link" href="https://wa.me/94778212606" target="_blank">
+          WhatsApp: Chat with us
+        </a>
       </div>
       <div class="footer">
         &copy; 2025 Kone. All rights reserved.
